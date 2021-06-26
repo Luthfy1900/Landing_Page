@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Page.css" />
+    <title>L1-Logistics</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="logo.png" />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#link">Features</a></li>
+          <li><a class="nav-link" href="#my_video">How it Works</a></li>
+          <li><a class="nav-link" href="#price">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>
+          The Number 1 Logistics Firm. Please Enter an Email below For Further
+          Inquiries
+        </p>
+        <input style="height: 40px; width: 500px; Font-size: large; border-radius: 6px;" id="email" type="email" required="required" placeholder=".......@example.com" />
+
+<button type="submit" id="submit" onClick="check()">
+Submit
+</button>
+      </form>
+      <div id="cont">
+        <section id="link">
+          <h1>Service</h1>
+          <p style="line-height: 0.0rem;">You will get quick and effecient service 24/7.</p><br>
+          <h1>Tracking</h1>
+          <p style="line-height: 0.0rem;">
+            With us you will have the benefit of knowing where your package is
+            at all times.
+          </p><br>
+          <h1>Discounts</h1>
+          <p style="line-height: 0.0rem;">As a member of our firm, you will get various discounts.</p>
+        </section><br>
+        <section id="my_video">
+            <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/RuckLtuInNY"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+        </section>
+        <section id="price">
+            <div id="container">
+                <div class="box1">
+                  <h2>Ship</h2>
+                  <h3>$500</h3>
+                  <p>You will receive faster delivery.</p>
+                  <button>SELECT</button>
+                </div>
+                <div class="box2">
+                  <h2>Road</h2>
+                  <h3>$400</h3>
+                  <p>Slower than ship but guaranteed time.</p>
+                  <button>SELECT</button>
+                </div>
+                <div class="box3">
+                  <h2>Air</h2>
+                  <h3>$1000</h3>
+                  <p>This option will give you the fastest route.</p>
+                  <button>SELECT</button>
+                </div>
+                </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+    </footer>
+    <div id="mine">
+        <img id="image" src="Background.jpg">
+    </div>
+    <div id="last">
+        <p>Copyright 2021, Original L1-Logistics</p>
+    </div>
+  <div id="image-overlay"></div>
+    
+    <script defer src="Page.js"></script>
+  </body>
+</html>
